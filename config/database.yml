@@ -26,14 +26,14 @@ test:
   database: DummyApp_test
   pool: 5
   username: root
-  password:
-  socket: /tmp/mysql.sock
+  password: petmatchperfect
+  socket: /var/run/mysqld/mysqld.sock
 
-production:
-  adapter: mysql2
-  encoding: utf8
-  database: DummyApp_production
-  pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+#production:
+ # adapter: mysql2
+  #encoding: utf8
+  #database: DummyApp_production
+  #pool: 5
+  #username: root
+  #password:
+  #socket: /tmp/mysql.sock
